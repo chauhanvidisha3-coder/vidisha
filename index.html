@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vidisha Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Background Animation -->
+    <div class="background-animation"></div>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">VIDISHA</h2>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button id="themeToggle">🌙</button>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+        <h1 class="title">Welcome to my Portfolio!</h1>
+
+        <h2 class="name">I am <span>VIDISHA</span></h2>
+
+        <h3 class="typing-text">
+            <span id="typing"></span>
+        </h3>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <h1 class="section-title">About Me</h1>
+
+        <div class="about-content">
+            <img src="https://via.placeholder.com/200" class="profile-img" alt="profile">
+
+            <div class="about-text">
+                <p>
+                    Hello! I'm <strong>Vidisha</strong>, a passionate and creative developer who loves blending clean design with modern technology. 
+                    I enjoy building beautiful, functional, and smooth user experiences with animation, creativity, and precision.
+                </p>
+
+                <h3>Skills</h3>
+                <div class="skills">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>React</span>
+                    <span>UI/UX</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <h1 class="section-title">Projects</h1>
+
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Project One</h3>
+                <p>Creative UI Website with animations.</p>
+                <button>Live Demo</button>
+            </div>
+
+            <div class="project-card">
+                <h3>Project Two</h3>
+                <p>Responsive Portfolio Website.</p>
+                <button>Live Demo</button>
+            </div>
+
+            <div class="project-card">
+                <h3>Project Three</h3>
+                <p>JavaScript Web App.</p>
+                <button>Live Demo</button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h1 class="section-title">Contact Me</h1>
+
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+
+        <div class="socials">
+            <a href="#">💙 GitHub</a>
+            <a href="#">🔗 LinkedIn</a>
+            <a href="#">📧 Email</a>
+        </div>
+    </section>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+
+</body>
+</html>
