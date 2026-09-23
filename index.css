@@ -12,6 +12,26 @@ body {
     transition: 0.5s;
 }
 
+body.light-mode {
+    background: #f5f7ff;
+    color: #111827;
+}
+
+body.light-mode .navbar ul li a,
+body.light-mode .title,
+body.light-mode .name span,
+body.light-mode .typing-text,
+body.light-mode .project-card,
+body.light-mode .skills span,
+body.light-mode .socials a {
+    color: #111827;
+}
+
+body.light-mode .project-card {
+    background: #ffffff;
+    border-color: #c7d2fe;
+}
+
 /* Background Animation */
 .background-animation {
     position: fixed;
